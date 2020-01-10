@@ -2,7 +2,7 @@
 
 Name:             joda-time
 Version:          2.2
-Release:          3.%{tzversion}%{?dist}
+Release:          2.%{tzversion}%{?dist}
 Summary:          Java date and time API
 
 License:          ASL 2.0
@@ -62,9 +62,6 @@ tar -xzf %{SOURCE1} -C src/main/java/org/joda/time/tz/src/
 %doc LICENSE.txt NOTICE.txt
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2-3.tzdata2013c
-- Mass rebuild 2013-12-27
-
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 2.2-2.tzdata2013c
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
